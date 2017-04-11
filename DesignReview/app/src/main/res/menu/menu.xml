@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/us"
+            android:title="user"
+            android:icon="@android:drawable/ic_menu_camera"></item>
+        <item android:id="@+id/ua"
+            android:title="user"
+            android:icon="@android:drawable/ic_menu_camera"></item>
+    </group>
+
+    <item
+        android:id="@+id/ha"
+        android:title="sub">
+        <menu>
+            <item
+                android:id="@+id/wq"
+                android:title="er"
+                android:icon="@android:drawable/ic_dialog_map">
+            </item>
+        </menu>
+    </item>
+</menu>

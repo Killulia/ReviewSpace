@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一个按钮"
+        android:enabled="false"
+        android:background="@drawable/bg_selector_button"/>
+    
+    <RadioButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/bg_selector_radiobutton"
+        android:text="第一个单选"/>
+    
+    <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/bg_selector_checkbox"
+        android:enabled="false"
+        android:text="第一个多选"/>
+    
+</LinearLayout>

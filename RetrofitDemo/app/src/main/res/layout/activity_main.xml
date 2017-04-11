@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bodhixu.retrofitdemo.activity.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/normal_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通GET请求" />
+
+    <Button
+        android:id="@+id/path_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求路径" />
+
+    <Button
+        android:id="@+id/query_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求参数" />
+
+    <Button
+        android:id="@+id/querymap_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求参数集合" />
+
+    <Button
+        android:id="@+id/path_query_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态Url+请求参数" />
+
+
+
+</LinearLayout>
